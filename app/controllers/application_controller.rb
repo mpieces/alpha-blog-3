@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
 
-     # makes available to views as well as al controllers
+     # makes available to views as well as all controllers
      helper_method :current_user, :logged_in?
      # to return the details of the user who is logged in
      def current_user
